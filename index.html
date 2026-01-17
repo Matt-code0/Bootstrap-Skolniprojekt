@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Gravitas+One&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>HappyPaws – Dog Hotel & SPA</title>
+  </head>
+  <body>
+    <!-- 1 section - home -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1 class="fw-bold display-4 hero-title">
+              HappyPaws – Dog Hotel & SPA
+            </h1>
+          </div>
+
+          <div class="col-lg-10">
+            <div class="booking-box p-4 rounded fw-semibold mt-1">
+              <h4 class="text-center mb-3">Quick Booking</h4>
+
+              <form>
+                <div class="row g-2">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Surname"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="E-mail"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      placeholder="Phone number with prefix e.g. +420555666777"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label class="form-label">Number of dogs</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="Number of dogs"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label class="form-label">Arrival</label>
+                    <input type="date" class="form-control" />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label class="form-label">Departure</label>
+                    <input type="date" class="form-control" />
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select">
+                      <option>Standard</option>
+                      <option>Premium</option>
+                      <option>Deluxe</option>
+                      <option>VIP SPA</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Dog name"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-center gap-5">
+                  <button class="btn btn-primary">Book now</button>
+                  <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#videoModal"
+                  >
+                    Virtual tour
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar - under home -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">HappyPaws</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 2 section - history -->
+    <section id="history" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 font-Caprasimo">History</h2>
+
+        <div class="row">
+          <!-- leva dva sloupce -->
+          <div
+            class="col-lg-6 d-flex flex-column flex-md-row gap-3 mb-4 mb-lg-0"
+          >
+            <div class="flex-fill font-Caprasimo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              expedita. Voluptas eius soluta quod ipsam, id temporibus?
+              Voluptatem dolorem sit dignissimos, obcaecati corrupti sunt
+              aspernatur doloremque unde voluptatibus nihil harum illo magni
+              optio quae architecto atque asperiores iure corporis vitae porro
+              ipsum ratione! Exercitationem labore sapiente quos, atque ex
+              voluptates sequi incidunt perspiciatis ut voluptas doloremque
+              quaerat facere nulla laborum tenetur nisi quae quia expedita
+              temporibus, iste, omnis eveniet eos quisquam. Dolorum animi
+              veritatis ex laboriosam eligendi voluptatum, impedit vel sint
+              officia ullam voluptate libero iure esse soluta, quos sunt,
+              numquam quidem nisi voluptatibus repellat facilis mollitia fugit.
+              Commodi, ipsam.
+            </div>
+            <div class="flex-fill font-MartianMono">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              expedita. Voluptas eius soluta quod ipsam, id temporibus?
+              Voluptatem dolorem sit dignissimos, obcaecati corrupti sunt
+              aspernatur doloremque unde voluptatibus nihil harum illo magni
+              optio quae architecto atque asperiores iure corporis vitae porro
+              ipsum ratione! Exercitationem labore sapiente quos, atque ex
+              voluptates sequi incidunt perspiciatis ut voluptas doloremque
+              quaerat facere nulla laborum tenetur nisi quae quia expedita
+              temporibus, iste, omnis eveniet eos quisquam. Dolorum animi
+              veritatis ex laboriosam eligendi voluptatum, impedit vel sint
+              officia ullam voluptate libero iure esse soluta, quos sunt,
+              numquam quidem nisi voluptatibus repellat facilis mollitia fugit.
+              Commodi, ipsam.
+            </div>
+          </div>
+          <!-- prava polovina -->
+          <div class="col-lg-6 d-md-block d-none">
+            <img
+              src="images/history.png"
+              class="img-fluid rounded"
+              alt="Dog history"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3 Section Pricing -->
+    <section id="pricing" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Prices</h2>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100">
+              <img
+                src="images/standart.png"
+                class="card-img-top"
+                alt="Standard Room"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Standard Room</h5>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <td>1 Dog</td>
+                      <td>30 € / night</td>
+                    </tr>
+                    <tr>
+                      <td>2 Dogs</td>
+                      <td>50 € / night</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary w-100">Book now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100">
+              <img
+                src="images/premium.png"
+                class="card-img-top"
+                alt="Premium Room"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Premium Room</h5>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <td>1 Dog</td>
+                      <td>50 € / night</td>
+                    </tr>
+                    <tr>
+                      <td>2 Dogs</td>
+                      <td>70 € / night</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary w-100">Book now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100">
+              <img src="images/deluxe.png" class="card-img-top" alt="Deluxe" />
+              <div class="card-body">
+                <h5 class="card-title">Deluxe</h5>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <td>1 Dog</td>
+                      <td>70 € / night</td>
+                    </tr>
+                    <tr>
+                      <td>2 Dogs</td>
+                      <td>120 € / night</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary w-100">Book now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100">
+              <img src="images/VIP.png" class="card-img-top" alt="VIP SPA" />
+              <div class="card-body">
+                <h5 class="card-title">VIP SPA</h5>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <td>1 Dog</td>
+                      <td>120 € / night</td>
+                    </tr>
+                    <tr>
+                      <td>2 Dogs</td>
+                      <td>200 € / night</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary w-100">Book now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4 galeris - crossfade carousel -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade gallery-carousel"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+
+          <!-- carousel položky -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/VIP.png"
+                class="d-block w-100"
+                alt="Gallery Image 1"
+                style="max-height: 600px; object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+              >
+                <h5>VIP SPA Treatment</h5>
+                <p>Pampering services for our VIP furry friends.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/standart.png"
+                class="d-block w-100"
+                alt="Gallery Image 2"
+                style="max-height: 600px; object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+              >
+                <h5>Standard Room</h5>
+                <p>Cozy and comfortable space for your furry friend.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/premium.png"
+                class="d-block w-100"
+                alt="Gallery Image 3"
+                style="max-height: 600px; object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+              >
+                <h5>Premium Room</h5>
+                <p>Extra space and amenities for a happy stay.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/deluxe.png"
+                class="d-block w-100"
+                alt="Gallery Image 4"
+                style="max-height: 600px; object-fit: cover"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2"
+              >
+                <h5>Deluxe Room</h5>
+                <p>Luxury comfort and play areas included.</p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- 5 contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact</h2>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-12 col-lg-4">
+            <div class="ratio ratio-4x3 rounded overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37748030.75477615!2d-78.92578125000003!3d52.5897007687178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d308566b1dedb%3A0x5a8aad05e72b4474!2sHappy%20Paws%20Hotel!5e1!3m2!1scs!2scz!4v1768567892096!5m2!1scs!2scz"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 text-center">
+            <h5 class="mb-3">Follow Us</h5>
+
+            <div class="d-flex flex-column align-items-center gap-3">
+              <a href="#" class="text-dark fs-1" aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="#" class="text-dark fs-1" aria-label="Twitter">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+              <a href="#" class="text-dark fs-1" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h5 class="mb-3">Contact Details</h5>
+
+            <p class="mb-2">
+              <i class="fa-solid fa-location-dot me-2"></i>
+              HappyPaws – Dog Hotel & SPA
+            </p>
+
+            <p class="mb-2">
+              <i class="fa-solid fa-phone me-2"></i>
+              +420 123 456 789
+            </p>
+
+            <p class="mb-0">
+              <i class="fa-solid fa-envelope me-2"></i>
+              info@HappyPaws.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6 MODAL -->
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="videoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="videoModalLabel">
+              Virtual Tour – HappyPaws Hotel
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body p-0">
+            <div class="ratio ratio-16x9">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/78T9WxK8ulI?si=YbZ1lQHntZWENvBm"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--JS SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Kontrola, zda je Bootstrap načten
+        if (typeof bootstrap === "undefined") {
+          console.error("Bootstrap JS není načten!");
+          return;
+        }
+
+        // NAVBAR AUTO-CLOSE (pro mobily)
+        const navLinks = document.querySelectorAll(".nav-link");
+        const navbarMenu = document.getElementById("mainNavbar");
+
+        if (navbarMenu) {
+          const bsCollapse = new bootstrap.Collapse(navbarMenu, {
+            toggle: false,
+          });
+
+          navLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+              if (window.innerWidth < 992) {
+                bsCollapse.hide();
+              }
+            });
+          });
+        }
+
+        // VIDEO MODAL – zastavení videa při zavření
+        const videoModal = document.getElementById("videoModal");
+        if (videoModal) {
+          const iframe = videoModal.querySelector("iframe");
+          const iframeSrc = iframe.src;
+          videoModal.addEventListener("hidden.bs.modal", () => {
+            iframe.src = ""; // zastaví video
+            iframe.src = iframeSrc; // obnoví zdroj
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

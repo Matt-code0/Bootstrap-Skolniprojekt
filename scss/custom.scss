@@ -1,0 +1,48 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$primary: #9500c27e;
+
+// Include any default variable overrides here (though functions won’t be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+.hero-section {
+  min-height: 100vh;
+  background-image: url("../images/hotel3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* filtr pres fotku pro ztmaveni */
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/hotel3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: #f5f5f5;
+
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+
+  margin-top: 10rem;
+}
+
+.booking-box {
+  color: #f6ffa1;
+}
+
+.font-Caprasimo {
+  font-family: "Caprasimo", cursive;
+}
+
+.font-MartianMono {
+  font-family: "Martian Mono", monospace;
+}
