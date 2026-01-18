@@ -1,26 +1,27 @@
 # HappyPaws – Dog Hotel & SPA 🐾
 
-[🔗 Živý náhled webu na Endoře](https://mhportfolio.endora.site/happypaws/)
+[🔗 Live Preview (Endora)](https://mhportfolio.endora.site/happypaws/)
 
-Moderní webová stránka pro luxusní hotel a SPA pro psy. Projekt byl vytvořen s důrazem na čistý design, responzivitu a moderní workflow.
+A modern, high-end website designed for a luxury dog hotel and SPA. This project emphasizes clean UI/UX, full responsiveness, and a professional front-end workflow.
 
-## 🚀 Technologie
-* **HTML5** (Sémantická struktura)
-* **SASS/SCSS** (Vlastní stylování, proměnné)
-* **Bootstrap 5** (Grid systém, komponenty, modální okna)
-* **JavaScript** (Logika pro ovládání videa a navigace)
+## 🚀 Tech Stack
+* **HTML5** – Semantic structure for better SEO and accessibility.
+* **SASS/SCSS** – Custom styling using variables, nesting, and mixins.
+* **Bootstrap 5** – Grid system, components, and interactive modals.
+* **JavaScript (ES6+)** – Logic for video handling and navigation.
 
-## ✨ Klíčové funkce
-- **Quick Booking:** Responzivní formulář pro rychlou rezervaci.
-- **Virtual Tour:** Integrace YouTube API pro video prohlídku v modálním okně.
-- **Dynamic Gallery:** Crossfade carousel pro prezentaci pokojů.
-- **Custom Design:** Kompletně přepsané barvy Bootstrapu přes SCSS proměnné.
+## ✨ Key Features
+- **Quick Booking:** A fully responsive form designed for seamless user conversion.
+- **Virtual Tour:** Integration with the **YouTube API** to showcase facility tours within a modal window.
+- **Dynamic Gallery:** Optimized crossfade carousel for elegant room presentations.
+- **Custom Design System:** Entirely customized Bootstrap theme via SCSS variables (colors, typography, spacing).
 
-## 📸 Náhled
-![Hlavní stránka projektu](images/nahled-webu.png)
+## 📸 Preview
+![Project Homepage](images/nahled-webu.png)
 
-## 🛠️ Jak projekt spustit lokálně
-1. Naklonujte repozitář:  
+## 🛠️ Local Setup & Development
+1. Clone the repository:  
    `git clone https://github.com/Matt-code0/Bootstrap-Skolniprojekt.git`
-2. Pro úpravu stylů použijte **Live Sass Compiler** (VS Code extension).
-3. Hlavní soubor stylů se nachází v `scss/custom.scss`.
+2. Open the project in VS Code.
+3. For styling modifications, use the **Live Sass Compiler** extension.
+4. The main styling entry point is located at `scss/custom.scss`.
